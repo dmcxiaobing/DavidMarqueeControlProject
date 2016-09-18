@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="start"
+        android:text="走起" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:onClick="stop"
+        android:text="停止" />
+
+    <Button
+        android:id="@+id/startfor0"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:onClick="startFor0"
+        android:text="从头开始" />
+
+    <davidmarqueecontrolproject.qq986945193.davidmarqueecontrolproject.MarqueeText
+        android:id="@+id/test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="大家好，我是程序员小冰，欢迎关注微博：http://weibo.com/mcxiaobing"
+        android:textColor="#000000"
+        android:textSize="20dp"></davidmarqueecontrolproject.qq986945193.davidmarqueecontrolproject.MarqueeText>
+
+
+    <davidmarqueecontrolproject.qq986945193.davidmarqueecontrolproject.AutoText
+        android:layout_width="fill_parent"
+        android:id="@+id/auto_text"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="大家好，我是程序员小冰，欢迎关注微博：http://weibo.com/mcxiaobing"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
