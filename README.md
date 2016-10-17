@@ -1,7 +1,7 @@
 # DavidMarqueeControlProject
 【Android】Android开发可以手动进行控制的跑马灯效果，包括从左到右，以及从右到左，
 
-[程序员小冰](http://blog.csdn.net/qq_21376985)
+作者:[程序员小冰](http://blog.csdn.net/qq_21376985)
 
 新浪微博：http://weibo.com/mcxiaobing 
 
