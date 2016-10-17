@@ -1,13 +1,13 @@
 # DavidMarqueeControlProject
 【Android】Android开发可以手动进行控制的跑马灯效果，包括从左到右，以及从右到左，
 
-作者：程序员小冰，GitHub主页：https://github.com/QQ986945193 
+[程序员小冰](http://blog.csdn.net/qq_21376985)
 
 新浪微博：http://weibo.com/mcxiaobing 
 
 首先给大家看一下我们今天这个最终实现的效果图： 
 
-![这里写图片描述](http://img.blog.csdn.net/20160918100607422)
+![效果图](http://img.blog.csdn.net/20160918100607422)
 
 这个主要是用到的自定义TextView，然后里面开一个线程进行，进行滚动效果。
 
